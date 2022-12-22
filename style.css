@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: url(new\ new.jpg);
+    background-size: cover;
+}
+.container .inner{
+    position: absolute;
+    width: 50%;
+    /*background-color: #0009;*/
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-bottom: 4px solid #fff;
+    border-top: 4px solid #fff;
+}
+.container .inner p{
+    justify-content: left;
+    color: yellow;
+    font-size: 35px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.container .img img{
+    height: 30%;
+    width: 30%;
+}
+.container .inner span{
+    color: aqua;
+}
